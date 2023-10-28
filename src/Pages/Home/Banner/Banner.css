@@ -1,0 +1,19 @@
+
+
+.banner-icons {
+  display: flex;
+   
+}
+
+.banner-icons a {
+  padding: 20px 20px;
+  border: 1px solid black;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #d6ddd8;
+}
+
+.banner-icons a:hover{
+  background-image: linear-gradient(to top right, #e339f8, #6093c2);
+  color: white;
+}

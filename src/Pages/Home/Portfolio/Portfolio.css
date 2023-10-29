@@ -1,21 +1,14 @@
 
-
-.banner-icons {
-  display: flex;
-   
-}
-
-.banner-icons a {
-  padding: 20px 20px;
+.portfolio-btn-git, .portfolio-btn-live {
+  padding: 5px 10px;
   border: 1px solid black;
-  margin: 0 20px;
+  margin: 0 5px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #d6ddd8;
-  transition: all 0.5s;
-
+  transition: all 0.4s;
 }
 
-.banner-icons a:hover{
+.portfolio-btn-git:hover, .portfolio-btn-live:hover {
   background-image: linear-gradient(to top right, #e339f8, #6093c2);
   color: white;
   border: none;

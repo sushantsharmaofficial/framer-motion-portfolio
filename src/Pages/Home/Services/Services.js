@@ -52,7 +52,9 @@ const Services = () => {
     <div className=" pb-10">
       <motion.div>
         <h3 className=" text-lg text-center text-primary pb-3">Services</h3>
-        <h1 className=" text-5xl text-center font-bold pb-10">What I do</h1>
+        <h1 className=" text-5xl text-center font-bold pb-10">
+          What I Provide
+        </h1>
       </motion.div>
       <div className=" grid grid-cols-1 lg:grid-cols-3 gap-5 py-3">
         {services.map((service, i) => (

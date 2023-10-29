@@ -12,13 +12,19 @@ const Banner = () => {
       <div className="hero  bg-base-100">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className=" w-[700px] h-[700px]">
-            <motion.img
-              initial={{ x: 900 }}
-              animate={{ x: 0 }}
-              transition={{ delay: 1 }}
-              src={myPic}
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              onHoverStart={(e) => {}}
+              onHoverEnd={(e) => {}}
+            >
+              <motion.img
+                initial={{ x: 900 }}
+                animate={{ x: 0 }}
+                transition={{ delay: 1 }}
+                src={myPic}
+                className="max-w-sm rounded-lg shadow-2xl hover:shadow-3xl"
+              />
+            </motion.div>
           </div>
           <motion.div
             initial={{ x: -2000 }}

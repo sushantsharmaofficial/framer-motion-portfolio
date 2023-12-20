@@ -50,7 +50,7 @@ const Banner = () => {
                 }}
               />
             </h1>
-            <p className="py-6">
+            <p className="py-6 text-lg">
               As a ReactJS Developer, I am skilled in creating and maintaining
               websites and web application. I have a strong understanding of
               programming languages such as HTML, CSS, JavaScript as well as

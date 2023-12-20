@@ -16,7 +16,7 @@
 }
 
 .banner-icons a:hover{
-  background-image: linear-gradient(to top right, #e339f8, #6093c2);
+  background-image: linear-gradient(to top right, #FF0000, #FF7878);
   color: white;
   border: none;
 }

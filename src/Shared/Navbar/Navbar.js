@@ -47,7 +47,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             ></ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Sushant</a>
+          <a className="btn btn-ghost normal-case text-3xl">Sushant</a>
         </div>
 
         <div className="navbar-center hidden md:flex">
@@ -57,7 +57,7 @@ const Navbar = () => {
           <motion.a
             whileHover={{ scale: 1.1 }}
             href="#"
-            className="navbar-download-btn rounded-md text-black"
+            className="navbar-download-btn rounded-md text-black text-xl"
           >
             Downlaod Resume
           </motion.a>

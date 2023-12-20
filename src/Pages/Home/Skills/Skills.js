@@ -8,7 +8,7 @@ const Skills = () => {
       <h1 className=" text-5xl text-center font-bold pb-10">
         Things I Am Good At
       </h1>
-      <div className=" grid grid-cols-1 lg:grid-cols-4  gap-10 py-3 font-bold text-primary mt-5">
+      <div className=" grid grid-cols-4 lg:grid-cols-4  gap-10 py-3 font-bold text-primary mt-5">
         <motion.div
           whileHover={{ scale: 1.2 }}
           onHoverStart={(e) => {}}

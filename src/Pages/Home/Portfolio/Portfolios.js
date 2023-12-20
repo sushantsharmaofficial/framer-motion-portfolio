@@ -1,5 +1,7 @@
 import React from "react";
-import p1 from "../../../Images/p-1.jpg";
+import p1 from "../../../Images/p-1.png";
+import p2 from "../../../Images/p-2.png";
+import p3 from "../../../Images/p-3 (1).png";
 import Port from "./Port";
 
 const Portfolios = () => {
@@ -13,7 +15,7 @@ const Portfolios = () => {
       liveLink: "www.live.com",
     },
     {
-      image: p1,
+      image: p2,
       title: "E-Commerce App",
       description:
         " This is a website i amde for the Tjbinayak Mart. I used HTML, CSS, Javasript and React for this Project. Only FrontEnd Part is developed.",
@@ -21,7 +23,7 @@ const Portfolios = () => {
       liveLink: "www.live.com",
     },
     {
-      image: p1,
+      image: p3,
       title: "E-Commerce App",
       description:
         " This is a website i amde for the Tjbinayak Mart. I used HTML, CSS, Javasript and React for this Project. Only FrontEnd Part is developed.",
@@ -63,7 +65,7 @@ const Portfolios = () => {
         My Portfolio
       </h1>
 
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-10 pt-3 pb-10">
+      <div className=" grid grid-cols-3 ml-10 lg:grid-cols-3 gap-10 pt-3 pb-10 ">
         {portfolios.map((port, index) => (
           <Port key={index} port={port}></Port>
         ))}

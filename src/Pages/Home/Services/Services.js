@@ -56,7 +56,7 @@ const Services = () => {
           What I Provide
         </h1>
       </motion.div>
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-5 py-3">
+      <div className=" grid grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {services.map((service, i) => (
           <Service key={i} service={service}></Service>
         ))}

@@ -17,7 +17,7 @@ const Service = ({ service }) => {
           whileHover={{ scale: 1.1 }}
           onHoverStart={(e) => {}}
           onHoverEnd={(e) => {}}
-          className="service-card text-start"
+          className="service-card text-start "
         >
           <i>{icon}</i>
           <h3 className=" py-2 font-bold">{title}</h3>

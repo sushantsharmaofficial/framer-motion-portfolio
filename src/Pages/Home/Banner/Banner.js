@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <div className=" text-start">
       <div className="hero  bg-base-100">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex lg:flex-row-reverse gap-20">
           <div className=" w-[700px] h-[700px]">
             <motion.div
               whileHover={{ scale: 1.1 }}
